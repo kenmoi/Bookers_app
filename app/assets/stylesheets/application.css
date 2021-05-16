@@ -31,14 +31,14 @@ p, ol, ul, td {
   line-height: 18px;
   font-family: verdana, arial, helvetica, sans-serif;
   margin: 33px;
-  font-size: 13px
+  font-size: 14px
 }
 
 .aaa{
   border-collapse: separate;
-  border-spacing: 3px 4px;
+  border-spacing: 2px 4px;
 }
 
 #notice {
-  color: red;
+  color: blue;
 }
