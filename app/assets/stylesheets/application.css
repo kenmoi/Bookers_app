@@ -24,13 +24,13 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   line-height: 18px;
   margin: 33px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 p, ol, ul, td {
-  line-height: 18px;
+  line-height: 16px;
   font-family: verdana, arial, helvetica, sans-serif;
-  margin: 33px;
+  margin: 35px;
   font-size: 13px
 }
 
@@ -40,5 +40,5 @@ p, ol, ul, td {
 }
 
 #notice {
-  color: blue;
+  color: red;
 }
