@@ -23,22 +23,22 @@
 body {
   font-family: verdana, arial, helvetica, sans-serif;
   line-height: 15px;
-  margin: 32px;
-  font-size: 12px;
+  margin: 30px;
+  font-size: 10px;
 }
 
 p, ol, ul, td {
   line-height: 13px;
   font-family: verdana, arial, helvetica, sans-serif;
-  margin: 32px;
+  margin: 30px;
   font-size: 14px
 }
 
 .aaa{
   border-collapse: separate;
-  border-spacing: 3px 4px;
+  border-spacing: 2px 4px;
 }
 
 #notice {
-  color: yellow;
+  color: red;
 }
