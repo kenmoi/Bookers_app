@@ -30,15 +30,15 @@ body {
 p, ol, ul, td {
   line-height: 15px;
   font-family: verdana, arial, helvetica, sans-serif;
-  margin: 26px;
-  font-size: 16px
+  margin: 22px;
+  font-size: 13px
 }
 
 .aaa{
   border-collapse: separate;
-  border-spacing: 3px 4px;
+  border-spacing: 2px 4px;
 }
 
 #notice {
-  color: pink;
+  color: silver;
 }
