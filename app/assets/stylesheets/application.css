@@ -22,13 +22,13 @@
 
 body {
   font-family: verdana, arial, helvetica, sans-serif;
-  line-height: 13px;
+  line-height: 12px;
   margin: 30px;
   font-size: 13px;
 }
 
 p, ol, ul, td {
-  line-height: 13px;
+  line-height: 14px;
   font-family: verdana, arial, helvetica, sans-serif;
   margin: 26px;
   font-size: 13px
@@ -40,5 +40,5 @@ p, ol, ul, td {
 }
 
 #notice {
-  color: orange;
+  color: blue;
 }
