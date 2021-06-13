@@ -1,4 +1,14 @@
 class UsersController < ApplicationController
+
+  def new
+    if user_signed_in?
+      @user = User.find(params[:id])
+    else
+      flash[:notice] = 'こちらからご登録後に閲覧いただけます！'
+      redirect_to new_user_registration_path
+    end
+  end
+
   def index
     @user = User.find(current_user.id)
     @users = @user
@@ -33,6 +43,10 @@ class UsersController < ApplicationController
   end
 
   def destroy
+    @user = User.find(params[:id])
+    @user.save!
+    render action: 'new'
+    nil
   end
 
   private
